@@ -1,9 +1,13 @@
 '''
-You have a tree with nodes numbered from 0 to n - 1. The tree is a connected graph where any two vertices are connected by a single path, meaning there are no simple cycles in the graph. 
+You have a tree with nodes numbered from 0 to n - 1. The tree is a connected graph where any two vertices are connected by a single path, 
+meaning there are no simple cycles in the graph. 
 
-Given an array of n - 1 edges, where edges[i] = [ai, bi] suggests that there exists a bidirectional link between nodes ai and bi, you can select any one node to serve as the root of the tree. Choosing node x as the root results in a tree with height h. We define the height of a rooted tree as the number of edges on the longest path from the root to any leaf.
+Given an array of n - 1 edges, where edges[i] = [ai, bi] suggests that there exists a bidirectional link between nodes ai and bi, you can
+select any one node to serve as the root of the tree. Choosing node x as the root results in a tree with height h. We define the height
+of a rooted tree as the number of edges on the longest path from the root to any leaf.
 
-You need to find and return the labels of nodes that, when chosen as root, produce a tree with the smallest possible height. The order in which the labels are returned does not matter.
+You need to find and return the labels of nodes that, when chosen as root, produce a tree with the smallest possible height. The order in
+which the labels are returned does not matter.
 
 
 Input:
